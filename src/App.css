@@ -1,0 +1,84 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: helvlight, Helvetica, sans-serif, Arial;
+
+
+  
+  /* border: 1px solid blue; */
+}
+
+@font-face  {
+  font-family: helvlight;
+  src: url("HELN.TTF");
+}
+
+html, body, #root, .wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fff, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fff, rgb(236, 229, 121)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main-holder {
+  align-self: center;
+}
+
+#zip, #country {
+  display: block;
+
+  margin: 10px auto;
+
+  padding: 2px 8px;
+  font-size: 18px;
+
+  transition: .5s;
+  border-radius: 2000px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+
+  opacity: .9;
+}
+
+#submit {
+  padding: 5px 30px;
+
+  margin: 0 auto;
+
+  display: block;
+
+  border-radius: 200000px;
+
+  font-size: 24px;
+
+  border: 1px solid #2f2e2e;
+
+  margin-top: 20px;
+
+  transition: .5s;
+
+  background-color: transparent;
+}
+
+#submit:hover {background-color: rgba(255, 255, 255, .3);}
+
+h1 {
+  font-size: 26px;
+
+  font-weight: 200;
+
+  padding-bottom: 20px;
+
+
+  color: #2f2e2e;
+}
